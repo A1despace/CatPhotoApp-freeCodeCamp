@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="CatPhotoApp.css">
-    <script src="CatPhotoApp.js"></script>
     <title>CatPhotoApp</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
       <h1>CatPhotoApp</h1>
+      <button id="theme-toggle">Toggle Dark Mode</button>
       <section>
         <h2>Cat Photos</h2>
         <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <a href="https://freecatphotoapp.com">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        </a>
       </section>
       <section>
         <h2>Cat Lists</h2>
@@ -39,11 +39,14 @@
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
         </figure>
       </section>
+      <section>
+        <h2>Random Cat Fact</h2>
+        <p id="cat-fact">Loading...</p>
+      </section>
     </main>
     <footer>
-      <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
+      <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
     </footer>
+    <script src="script.js"></script>
   </body>
-</html>   
+</html>
