@@ -9,3 +9,11 @@ img {
     border-radius: 10px; 
   }
   
+
+  ul, ol {
+     padding-left: 20px;
+     }
+
+figure {
+    text-align: center;
+}
